@@ -6,21 +6,7 @@ from tkinter import messagebox
 import random
 
 # Define image paths using absolute paths (update these if your folder location differs)
-img_paths = {
-    "male": r"C:\Users\Ayush Choudhar\OneDrive\Desktop\PYTHON PROJECT\Rock-Paper-Scissors-Game\RockPaperScissorsImages\Male.jpg",
-    "female": r"C:\Users\Ayush Choudhar\OneDrive\Desktop\PYTHON PROJECT\Rock-Paper-Scissors-Game\RockPaperScissorsImages\Female.jpg",
-    "computer": r"C:\Users\Ayush Choudhar\OneDrive\Desktop\PYTHON PROJECT\Rock-Paper-Scissors-Game\RockPaperScissorsImages\computer.png",
-    "rHand": r"C:\Users\Ayush Choudhar\OneDrive\Desktop\PYTHON PROJECT\Rock-Paper-Scissors-Game\RockPaperScissorsImages\rHand.png",
-    "pHand": r"C:\Users\Ayush Choudhar\OneDrive\Desktop\PYTHON PROJECT\Rock-Paper-Scissors-Game\RockPaperScissorsImages\pHand.png",
-    "sHand": r"C:\Users\Ayush Choudhar\OneDrive\Desktop\PYTHON PROJECT\Rock-Paper-Scissors-Game\RockPaperScissorsImages\sHand.png",
-    "rock": r"C:\Users\Ayush Choudhar\OneDrive\Desktop\PYTHON PROJECT\Rock-Paper-Scissors-Game\RockPaperScissorsImages\Rockimg.jpg",
-    "paper": r"C:\Users\Ayush Choudhar\OneDrive\Desktop\PYTHON PROJECT\Rock-Paper-Scissors-Game\RockPaperScissorsImages\Paperimg.jpg",
-    "scissors": r"C:\Users\Ayush Choudhar\OneDrive\Desktop\PYTHON PROJECT\Rock-Paper-Scissors-Game\RockPaperScissorsImages\Scissorsimg.jpg",
-    "win": r"C:\Users\Ayush Choudhar\OneDrive\Desktop\PYTHON PROJECT\Rock-Paper-Scissors-Game\RockPaperScissorsImages\YouWin.jpg",
-    "lose": r"C:\Users\Ayush Choudhar\OneDrive\Desktop\PYTHON PROJECT\Rock-Paper-Scissors-Game\RockPaperScissorsImages\YouLose.jpg",
-    "tie": r"C:\Users\Ayush Choudhar\OneDrive\Desktop\PYTHON PROJECT\Rock-Paper-Scissors-Game\RockPaperScissorsImages\its_a_tie_270x270.jpg",
-    "confeti": r"C:\Users\Ayush Choudhar\OneDrive\Desktop\PYTHON PROJECT\Rock-Paper-Scissors-Game\RockPaperScissorsImages\confeti.gif"
-}
+
 
 # Check if all images exist before running the app
 for key, path in img_paths.items():
